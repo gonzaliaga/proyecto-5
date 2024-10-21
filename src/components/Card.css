@@ -1,0 +1,35 @@
+.card {
+    background-color: #2B4F8D; 
+    border: 2px solid #04BBEC; 
+    border-radius: 8px; 
+    padding: 16px; 
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.textCard {
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.infoCard {
+    font-size: 18px;
+}
+
+@media (max-width: 1024px) {
+    .nameCard {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nameCard {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nameCard {
+        font-size: 22px;
+    }
+}
